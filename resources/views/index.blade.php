@@ -1010,6 +1010,11 @@
         <!--/ New Cars -->
     </main>
 
+@endsection
 
+
+@section('footerLinks')
+        @parent
+        <a href="">Link3</a>
 @endsection
 
