@@ -11,4 +11,6 @@ class City extends Model
         'state_id',
     ];
 
+
+
 }
