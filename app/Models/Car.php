@@ -75,6 +75,13 @@ class Car extends Model
 
     }
 
+    public function owner()
+    {
+        return $this->belongsToMany(User::class, 'favourite_cars', 'car_id', 'user_id')
+            ->withTimestamps();
+
+    }
+
 
 
 }
